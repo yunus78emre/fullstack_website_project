@@ -1,0 +1,23 @@
+{
+  "// README": [
+    "This is a TEMPLATE file. Do NOT put real secrets here.",
+    "For local development, prefer 'dotnet user-secrets':",
+    "",
+    "  cd backend",
+    "  dotnet user-secrets set "EmailSettings:SmtpHost" "smtp.gmail.com"
+    dotnet user-secrets set "EmailSettings:SmtpPort" "587"
+    dotnet user-secrets set "EmailSettings:SenderEmail" "ozturkyunusemre19@gmail.com"
+    dotnet user-secrets set "EmailSettings:Username" "ozturkyunusemre19@gmail.com"
+    dotnet user-secrets set "EmailSettings:Password" "GMAIL_16_HANELI_UYGULAMA_SIFRENIZ"
+
+    "",
+    "User-secrets are stored OUTSIDE the repo (per-developer).",
+    "For production, use environment variables (e.g. Jwt__Key, ConnectionStrings__DefaultConnection)."
+  ],
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}

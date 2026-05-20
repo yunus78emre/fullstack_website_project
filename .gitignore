@@ -1,0 +1,25 @@
+## ASP.NET Core / .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+
+## Sensitive configuration — NEVER commit these
+appsettings.json
+appsettings.*.json
+
+## But keep the Development template in source (without real secrets)
+!appsettings.Development.json.example
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Node (if frontend added later)
+node_modules/
+dist/
+
+## Docker
+*.env
